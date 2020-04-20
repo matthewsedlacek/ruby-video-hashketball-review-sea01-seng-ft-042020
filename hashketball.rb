@@ -132,4 +132,5 @@ end
 def players
   game_hash[:home].merge(game_hash[:away])
 end
-binding.pry
+
+def 
