@@ -197,10 +197,10 @@ def player_numbers(team_name)
       if player[:shoe] > biggest_shoe
         biggest_shoe = player[:shoe]
         rebounds = player[:rebounds]
-      end 
+            end 
           end         
         end 
-      rebounds
-      end
+    rebounds
+  end
 
   
