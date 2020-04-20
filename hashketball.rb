@@ -154,4 +154,5 @@ def shoe_size (player_name)
   def team_colors (team_name)
     game_hash.each do |location, team_data|
       binding.pry
+    end
   end
