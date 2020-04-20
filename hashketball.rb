@@ -130,7 +130,7 @@ end
 
 # Write code here
 def players
-  game_hash[:home][:players].merge(game_hash[:away][:players])
+  players = game_hash[:home][:players].merge(game_hash[:away][:players])
 end
 binding.pry
 
