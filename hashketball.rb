@@ -133,4 +133,6 @@ def players
   game_hash[:home].merge(game_hash[:away])
 end
 
-def 
+def num_points_scored (player_name)
+binding.pry
+end
