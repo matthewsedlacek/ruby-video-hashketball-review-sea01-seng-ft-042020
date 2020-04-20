@@ -134,11 +134,6 @@ def players
 end
 
 def num_points_scored(player_name)
-  game_hash.each do |location, team_data|
-    team_data.each do |attribute, data|
-      data.each do |player_name|
-        puts data_item
-      end
-    end
-  end
+  players[player_name][:points]
 end
+binding.pry
