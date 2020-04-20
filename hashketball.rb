@@ -1,4 +1,5 @@
 # Write your code below game_hash
+require 'pry'
 
 def game_hash
   {
@@ -128,3 +129,5 @@ def game_hash
 end
 
 # Write code here
+def players
+  game_hash[:home].merge
