@@ -131,9 +131,6 @@ end
 # Write code here
 
 def num_points_scored(player_name)
-  game_hash.each do |location, team_data|
-    team_data[:players].each do |player_name|
-      return player_name[:points]
-        end 
-      end
-    end
+  players = game_hash[:home][:players].merge(game_hash[:away][:players])
+  players[player_name][:points]
+end
